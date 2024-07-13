@@ -1,0 +1,86 @@
+body {
+  font-family: Public Sans;
+  background-image: url(https://img.freepik.com/free-vector/beige-curve-abstract-vector-background_53876-114017.jpg?w=996&t=st=1711604278~exp=1711604878~hmac=83d0a7c7b91d322f875fd2717c690666253b4a286bc7b593a74e9e1d649b0306);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: normal;
+  font-family: inherit;
+  margin: unset;
+}
+a {
+  display: block;
+}
+.bn632-hover {
+  width: 160px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+  margin: 20px;
+  height: 55px;
+  text-align: center;
+  border: none;
+  background-size: 300% 100%;
+  border-radius: 50px;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:hover {
+  background-position: 100% 0;
+  moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.bn632-hover:focus {
+  outline: none;
+}
+
+.bn632-hover.bn23 {
+  background-image: linear-gradient(
+    to right,
+    #009245,
+    #fcee21,
+    #00a8c5,
+    #d9e021
+  );
+  box-shadow: 0 4px 15px 0 rgba(83, 176, 57, 0.75);
+}
+ul {
+  margin: 0;
+  margin-inline: unset;
+  padding: 0;
+  list-style: none;
+}
+.ReactModal__Overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #6b6b6b;
+  border-radius: 10px;
+}
+input {
+  background-color: transparent;
+  width: 100%;
+}
+input:focus {
+  outline: none;
+}
